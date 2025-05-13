@@ -27,6 +27,22 @@ case $region in
                 resetprop ro.product.odm.model "PHB110"
                 resetprop ro.boot.hardware.revision "CN"
                 ;;
+            "22851")
+            #China
+                resetprop ro.product.device "OP5943L1"
+                resetprop ro.product.vendor.device "OP5943L1"
+                resetprop ro.product.odm.device "OP5943L1"
+                resetprop ro.product.product.device "OP5943L1"
+                resetprop ro.product.device "OP5943L1"
+                resetprop ro.product.system_ext.device "OP5943L1"
+                resetprop ro.product.product.model "PJA110"
+                resetprop ro.product.model "PJA110"
+                resetprop ro.product.system.model "PJA110"
+                resetprop ro.product.system_ext.model "PJA110"
+                resetprop ro.product.vendor.model "PJA110"
+                resetprop ro.product.odm.model "PJA110"
+                resetprop ro.boot.hardware.revision "CN"
+                ;;
             "22861")
             #India
                 resetprop ro.product.device "OP594DL1"
